@@ -71,11 +71,14 @@ a:hover {
 .nav-internal li {
   display: block;
 }
-
+@media (min-width: 480px){
+	button{display:none;}
+}
 @media (max-width: 480px){
   .nav li {
     display: block;
   }
+  .nav-main{display:none;}
 }
 
 /* PANELS */
